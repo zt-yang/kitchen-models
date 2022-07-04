@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <robot name="partnet_49ad167497a2af8c9672e39f89e4622e">
 	<link name="base"/>
-	<link name="link_0">
+	<!-- <link name="link_0">
 		<visual name="drawer_front-44">
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -207,7 +207,7 @@
 		<child link="link_2"/>
 		<parent link="link_3"/>
 		<limit lower="-0.016000000000000014" upper="0.24800000000000022"/>
-	</joint>
+	</joint> -->
 	<link name="link_3">
 		<visual name="board-26">
 			<origin xyz="0 0 0"/>

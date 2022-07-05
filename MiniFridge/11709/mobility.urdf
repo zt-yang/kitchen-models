@@ -1,6 +1,74 @@
 <?xml version="1.0" ?>
 <robot name="partnet_f71397f01cab21ffaff7331733d1f0f5">
 	<link name="base"/>
+
+	<link name="link_0_handle">
+		<visual name="glass-20">
+			<origin xyz="-0.2569944013908141 0.7078800201416013 -0.25011729958012885"/>
+			<geometry>
+				<mesh filename="textured_objs/original-9-fixed.obj"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="-0.2569944013908141 0.7078800201416013 -0.19011729958012885"/>
+			<geometry>
+				<mesh filename="textured_objs/original-9-fixed.obj"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_0_handle" type="fixed">
+		<origin xyz="0 0 0"/>
+		<axis xyz="0 -1 0"/>
+		<child link="link_0_handle"/>
+		<parent link="link_0"/>
+	</joint>
+
+
+	<link name="link_1_handle">
+		<visual name="glass-19">
+			<origin xyz="0.19707658594083446 0.7078800201416016 -0.24847328997979495"/>
+			<geometry>
+				<mesh filename="textured_objs/original-8-fixed.obj"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0.19707658594083446 0.7078800201416016 -0.19847328997979495"/>
+			<geometry>
+				<mesh filename="textured_objs/original-8-fixed.obj"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_1_handle" type="fixed">
+		<origin xyz="0 0 0"/>
+		<axis xyz="0 -1 0"/>
+		<child link="link_1_handle"/>
+		<parent link="link_1"/>
+	</joint>
+
+	<link name="link_2_handle">
+		<visual name="glass-18">
+			<origin xyz="0.6384173208185699 0.7078800201416015 -0.24279461035976008"/>
+			<geometry>
+				<mesh filename="textured_objs/original-7-fixed.obj"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0.6384173208185699 0.7078800201416015 -0.19279461035976008"/>
+			<geometry>
+				<mesh filename="textured_objs/original-7-fixed.obj"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_2_handle" type="fixed">
+		<origin xyz="0 0 0"/>
+		<axis xyz="0 -1 0"/>
+		<child link="link_2_handle"/>
+		<parent link="link_2"/>
+	</joint>
+
+	
+
+
 	<link name="link_0">
 		<visual name="glass-20">
 			<origin xyz="-0.2569944013908141 0.7078800201416013 -0.25011729958012885"/>
@@ -22,6 +90,7 @@
 		<parent link="link_3"/>
 		<limit lower="0.0" upper="1.5707963267948966"/>
 	</joint>
+
 	<link name="link_1">
 		<visual name="glass-19">
 			<origin xyz="0.19707658594083446 0.7078800201416016 -0.24847328997979495"/>
@@ -43,6 +112,7 @@
 		<parent link="link_3"/>
 		<limit lower="0.0" upper="1.5707963267948966"/>
 	</joint>
+
 	<link name="link_2">
 		<visual name="glass-18">
 			<origin xyz="0.6384173208185699 0.7078800201416015 -0.24279461035976008"/>
@@ -57,7 +127,13 @@
 			</geometry>
 		</collision>
 	</link>
-
+	<joint name="joint_2" type="revolute">
+		<origin xyz="-0.6384173208185699 -0.7078800201416015 0.24279461035976008"/>
+		<axis xyz="0 -1 0"/>
+		<child link="link_2"/>
+		<parent link="link_3"/>
+		<limit lower="0.0" upper="1.5707963267948966"/>
+	</joint>
 
 	<!-- <joint name="joint_shelf_upper" type="fixed">
 		<axis xyz="0 -1 0"/>
@@ -99,13 +175,6 @@
 		</visual>
 	</link> -->
 
-	<joint name="joint_2" type="revolute">
-		<origin xyz="-0.6384173208185699 -0.7078800201416015 0.24279461035976008"/>
-		<axis xyz="0 -1 0"/>
-		<child link="link_2"/>
-		<parent link="link_3"/>
-		<limit lower="0.0" upper="1.5707963267948966"/>
-	</joint>
 	<link name="link_3">
 		<visual name="frame-10">
 			<origin xyz="0 0 0"/>

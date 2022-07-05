@@ -1,13 +1,8 @@
 <?xml version="1.0" ?>
 <robot name="partnet_8ed3447275de7695149c1768202b4e64">
 	<link name="base"/>
-	<link name="link_0">
-		<visual name="door_frame-13">
-			<origin xyz="0.5038798779540579 -0.757308 -0.3910896986000594"/>
-			<geometry>
-				<mesh filename="textured_objs/new-8.obj"/>
-			</geometry>
-		</visual>
+
+	<link name="handle_1">
 		<visual name="handle-14">
 			<origin xyz="0.5038798779540579 -0.757308 -0.3910896986000594"/>
 			<geometry>
@@ -17,13 +12,28 @@
 		<collision>
 			<origin xyz="0.5038798779540579 -0.757308 -0.3910896986000594"/>
 			<geometry>
-				<mesh filename="textured_objs/new-8.obj"/>
+				<mesh filename="textured_objs/new-4-fixed.obj"/>
 			</geometry>
 		</collision>
+	</link>
+	<joint name="joint_handle_1" type="fixed">
+		<origin xyz="0 0 0"/>
+		<axis xyz="0 -1 0"/>
+		<child link="handle_1"/>
+		<parent link="link_0"/>
+	</joint>
+
+	<link name="link_0">
+		<visual name="door_frame-13">
+			<origin xyz="0.5038798779540579 -0.757308 -0.3910896986000594"/>
+			<geometry>
+				<mesh filename="textured_objs/new-8.obj"/>
+			</geometry>
+		</visual>
 		<collision>
 			<origin xyz="0.5038798779540579 -0.757308 -0.3910896986000594"/>
 			<geometry>
-				<mesh filename="textured_objs/new-4.obj"/>
+				<mesh filename="textured_objs/new-8.obj"/>
 			</geometry>
 		</collision>
 	</link>
@@ -34,13 +44,9 @@
 		<parent link="link_2"/>
 		<limit lower="0.0" upper="3.141592653589793"/>
 	</joint>
-	<link name="link_1">
-		<visual name="door_frame-11">
-			<origin xyz="-0.4877117157723351 -0.7573079999999996 -0.38152655059947566"/>
-			<geometry>
-				<mesh filename="textured_objs/new-6.obj"/>
-			</geometry>
-		</visual>
+
+
+	<link name="handle_2">
 		<visual name="handle-12">
 			<origin xyz="-0.4877117157723351 -0.7573079999999996 -0.38152655059947566"/>
 			<geometry>
@@ -50,13 +56,29 @@
 		<collision>
 			<origin xyz="-0.4877117157723351 -0.7573079999999996 -0.38152655059947566"/>
 			<geometry>
-				<mesh filename="textured_objs/new-6.obj"/>
+				<mesh filename="textured_objs/new-5.obj"/>
 			</geometry>
 		</collision>
+	</link>
+	<joint name="joint_handle_2" type="fixed">
+		<origin xyz="0 0 0"/>
+		<axis xyz="0 1 0"/>
+		<child link="handle_2"/>
+		<parent link="link_1"/>
+	</joint>
+
+
+	<link name="link_1">
+		<visual name="door_frame-11">
+			<origin xyz="-0.4877117157723351 -0.7573079999999996 -0.38152655059947566"/>
+			<geometry>
+				<mesh filename="textured_objs/new-6.obj"/>
+			</geometry>
+		</visual>
 		<collision>
 			<origin xyz="-0.4877117157723351 -0.7573079999999996 -0.38152655059947566"/>
 			<geometry>
-				<mesh filename="textured_objs/new-5.obj"/>
+				<mesh filename="textured_objs/new-6.obj"/>
 			</geometry>
 		</collision>
 	</link>

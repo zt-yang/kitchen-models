@@ -20,10 +20,34 @@
 				<mesh filename="textured_objs/new-0.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/new-3.obj"/>
+			</geometry>
+		</collision> -->
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/new-3-left.obj"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/new-3-right.obj"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/new-3-top.obj"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/new-3-back.obj"/>
 			</geometry>
 		</collision>
 	</link>

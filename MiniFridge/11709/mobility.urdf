@@ -916,12 +916,46 @@
 				<mesh filename="textured_objs/original-122.obj"/>
 			</geometry>
 		</visual> -->
+
+<!-- 
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-128.obj"/>
 			</geometry>
+		</collision> -->
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-128-left.obj"/>
+			</geometry>
 		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-128-right.obj"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-128-top.obj"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-128-bottom.obj"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-128-back.obj"/>
+			</geometry>
+		</collision>
+
+
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>

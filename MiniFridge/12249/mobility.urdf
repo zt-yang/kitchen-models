@@ -77,10 +77,40 @@
 				<mesh filename="textured_objs/original-5.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-4.obj"/>
+			</geometry>
+		</collision> -->
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-4-left.obj"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-4-right.obj"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-4-top.obj"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-4-bottom.obj"/>
+			</geometry>
+		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-4-back.obj"/>
 			</geometry>
 		</collision>
 	</link>

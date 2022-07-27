@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd /Users/z/Documents/simulators/PyBullet/kitchen-worlds/assets/models/MiniFridge/11231/images/texture_0.jpg
+map_Kd ../images/texture_0.jpg
 
 newmtl material-1.004
 Ns 30.000009
@@ -31,7 +31,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd /Users/z/Documents/simulators/PyBullet/kitchen-worlds/assets/models/MiniFridge/11231/images/texture_1.jpg
+map_Kd ../images/texture_1.jpg
 
 newmtl material-3.002
 Ns 30.000009
@@ -42,4 +42,4 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 3
-map_Kd /Users/z/Documents/simulators/PyBullet/kitchen-worlds/assets/models/MiniFridge/11231/images/texture_2.jpg
+map_Kd ../images/texture_2.jpg

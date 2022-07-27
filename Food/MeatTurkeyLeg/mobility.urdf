@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<robot name="partnet_ca2341f33cd4995dae7fdc0845a47bf5">
+<robot name="free3dmodels_meatturkeyleg">
 	<link name="base"/>
 	<link name="link_1">
 		<visual name="body-6">

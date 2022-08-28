@@ -68,13 +68,13 @@
 		<visual name="handle-11">
 			<origin xyz="-0.5543596224430867 -0.7725170000000001 -0.33093961184787113"/>
 			<geometry>
-				<mesh filename="textured_objs/new-1.obj"/>
+				<mesh filename="textured_objs/new-1-fixing.obj"/>
 			</geometry>
 		</visual>
 		<collision>
 			<origin xyz="-0.5543596224430867 -0.7725170000000001 -0.28093961184787113"/>
 			<geometry>
-				<mesh filename="textured_objs/new-1-fixed.obj"/>
+				<mesh filename="textured_objs/new-1-fixing.obj"/>
 			</geometry>
 		</collision>
 	</link>

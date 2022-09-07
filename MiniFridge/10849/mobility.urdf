@@ -113,6 +113,12 @@
 				<mesh filename="textured_objs/new-2-back.obj"/>
 			</geometry>
 		</collision>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/new-2-front.obj"/>
+			</geometry>
+		</collision>
 	</link>
 	<joint name="joint_1" type="fixed">
 		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0"/>

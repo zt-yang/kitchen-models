@@ -244,7 +244,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/caster.obj"/>
       </geometry>
-      <material name="Caster"/>
+      <!--material name="Caster"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -279,7 +279,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/wheel.obj"/>
       </geometry>
-      <material name="Wheel_l"/>
+      <!--material name="Wheel_l"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="1.57079632679 0 0" xyz="0 0 0"/>
@@ -322,7 +322,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/wheel.obj"/>
       </geometry>
-      <material name="Wheel_r"/>
+      <!--material name="Wheel_r"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="1.57079632679 0 0" xyz="0 0 0"/>
@@ -370,7 +370,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/caster.obj"/>
       </geometry>
-      <material name="Caster"/>
+      <!--material name="Caster"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -405,7 +405,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/wheel.obj"/>
       </geometry>
-      <material name="Wheel_l"/>
+      <!--material name="Wheel_l"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="1.57079632679 0 0" xyz="0 0 0"/>
@@ -448,7 +448,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/wheel.obj"/>
       </geometry>
-      <material name="Wheel_r"/>
+      <!--material name="Wheel_r"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="1.57079632679 0 0" xyz="0 0 0"/>
@@ -496,7 +496,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/caster.obj"/>
       </geometry>
-      <material name="Caster"/>
+      <!--material name="Caster"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -531,7 +531,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/wheel.obj"/>
       </geometry>
-      <material name="Wheel_l"/>
+      <!--material name="Wheel_l"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="1.57079632679 0 0" xyz="0 0 0"/>
@@ -574,7 +574,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/wheel.obj"/>
       </geometry>
-      <material name="Wheel_r"/>
+      <!--material name="Wheel_r"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="1.57079632679 0 0" xyz="0 0 0"/>
@@ -622,7 +622,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/caster.obj"/>
       </geometry>
-      <material name="Caster"/>
+      <!--material name="Caster"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -657,7 +657,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/wheel.obj"/>
       </geometry>
-      <material name="Wheel_l"/>
+      <!--material name="Wheel_l"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="1.57079632679 0 0" xyz="0 0 0"/>
@@ -700,7 +700,7 @@
       <geometry>
         <mesh filename="../meshes/base_v0/wheel.obj"/>
       </geometry>
-      <material name="Wheel_r"/>
+      <!--material name="Wheel_r"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="1.57079632679 0 0" xyz="0 0 0"/>
@@ -1602,7 +1602,7 @@
       <geometry>
         <mesh filename="../meshes/shoulder_v0/upper_arm_roll.obj"/>
       </geometry>
-      <material name="RollLinks"/>
+      <!--material name="RollLinks"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -1735,7 +1735,7 @@
       <geometry>
         <mesh filename="../meshes/upper_arm_v0/forearm_roll.obj"/>
       </geometry>
-      <material name="RollLinks"/>
+      <!--material name="RollLinks"/-->
     </visual>
     <!-- TODO: collision tag should be optional -->
     <collision group="non_gripper">
@@ -1899,7 +1899,7 @@
       <geometry>
         <mesh filename="../meshes/forearm_v0/wrist_roll.obj"/>
       </geometry>
-      <material name="RollLinks"/>
+      <!--material name="RollLinks"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -2530,7 +2530,7 @@
       <geometry>
         <mesh filename="../meshes/shoulder_v0/upper_arm_roll.obj"/>
       </geometry>
-      <material name="RollLinks"/>
+      <!--material name="RollLinks"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="0 0 0" xyz="0 0 0"/>
@@ -2663,7 +2663,7 @@
       <geometry>
         <mesh filename="../meshes/upper_arm_v0/forearm_roll.obj"/>
       </geometry>
-      <material name="RollLinks"/>
+      <!--material name="RollLinks"/-->
     </visual>
     <!-- TODO: collision tag should be optional -->
     <collision group="non_gripper">
@@ -2827,7 +2827,7 @@
       <geometry>
         <mesh filename="../meshes/forearm_v0/wrist_roll.obj"/>
       </geometry>
-      <material name="RollLinks"/>
+      <!--material name="RollLinks"/-->
     </visual>
     <collision group="non_gripper">
       <origin rpy="0 0 0" xyz="0 0 0"/>

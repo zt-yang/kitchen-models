@@ -2,6 +2,16 @@
 <robot name="partnet_a44c2110f646309bc7fb1a0a584939a5">
 	<link name="base"/>
 	<link name="link_0">
+		<visual name="bottom">
+			<origin xyz="0 -0.66 0"/>
+			<geometry>
+				<box size="1.1 .1 0.7"/>
+			</geometry>
+			<material name="Black">
+				<color rgba="1.0 1.0 1.0 1.0"/>
+			</material>
+		</visual>
+
 		<visual name="frame-5">
 			<origin xyz="0 0 0"/>
 			<geometry>

@@ -2,8 +2,6 @@
 <robot name="partnet_5b81d7830eabb7547c6e1fb05e1b9037">
 	<link name="base"/>
 
-
-
 	<link name="handle">
 		<visual name="handle-8">
 			<origin xyz="-0.49549596211149094 -0.6874990000000003 -0.49109900923239014"/>
@@ -59,6 +57,16 @@
 		<limit lower="-0.0" upper="3.141592653589793"/>
 	</joint>
 	<link name="link_1">
+		<visual name="bottom">
+			<origin xyz="0 -0.69 0"/>
+			<geometry>
+				<box size="1 .12 0.95"/>
+			</geometry>
+			<material name="Black">
+				<color rgba="0.0 0.0 0.0 1.0"/>
+			</material>
+		</visual>
+
 		<visual name="surface-4">
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -71,6 +79,14 @@
 				<mesh filename="textured_objs/new-2.obj"/>
 			</geometry>
 		</visual>
+
+		<collision name="bottom">
+			<origin xyz="0 -0.69 0"/>
+			<geometry>
+				<box size="1 .12 0.95"/>
+			</geometry>
+		</collision>
+
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>

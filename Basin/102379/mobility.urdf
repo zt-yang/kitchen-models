@@ -33,8 +33,8 @@
 		</visual>
 		<collision name="water_col">
 			<geometry>
-	        	<box size="1.26 .001 .84"/>
-	        </geometry>
+      	<box size="1.26 .001 .84"/>
+      </geometry>
 		</collision>
 	</link>
 

@@ -1,5 +1,8 @@
 <?xml version="1.0" ?>
 <robot name="partnet_5b81d7830eabb7547c6e1fb05e1b9037">
+	<material name="Black">
+		<color rgba="0.0 0.0 0.0 1.0"/>
+	</material>
 	<link name="base"/>
 
 	<link name="handle">
@@ -62,9 +65,7 @@
 			<geometry>
 				<box size="1 .12 0.95"/>
 			</geometry>
-			<material name="Black">
-				<color rgba="0.0 0.0 0.0 1.0"/>
-			</material>
+			<material name="Black"/>
 		</visual>
 
 		<visual name="surface-4">

@@ -30,6 +30,13 @@
 				<mesh filename="textured_objs/new-5.obj"/>
 			</geometry>
 		</collision> -->
+			<collision name="bottom">
+				<origin xyz="0 -0.66 0"/>
+				<geometry>
+					<box size="1.1 .1 0.7"/>
+				</geometry>
+			</collision>
+
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>

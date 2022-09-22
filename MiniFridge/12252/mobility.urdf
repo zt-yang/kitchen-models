@@ -178,6 +178,7 @@
 				<mesh filename="textured_objs/original-17.obj"/>
 			</geometry>
 		</visual>
+		
 		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>

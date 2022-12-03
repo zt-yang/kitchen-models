@@ -20,12 +20,12 @@
 				<mesh filename="textured_objs/original-6-new.obj"/>
 			</geometry>
 		</visual>
-		<!-- <collision>
+		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-7-new.obj"/>
 			</geometry>
-		</collision> -->
+		</collision>
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>

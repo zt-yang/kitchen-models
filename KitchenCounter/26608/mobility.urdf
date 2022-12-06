@@ -479,7 +479,8 @@
 		<axis xyz="0 0 1"/>
 		<child link="link_7"/>
 		<parent link="link_8"/>
-		<limit lower="-0.12400000000000011" upper="0.1120000000000001"/>
+		<limit lower="0" upper="0.23199999999999998"/>
+		<!-- <limit lower="-0.12400000000000011" upper="0.1120000000000001"/> -->
 	</joint>
 	<link name="link_8">
 		<visual name="board-84">

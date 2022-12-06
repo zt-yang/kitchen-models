@@ -6,25 +6,25 @@
 		<visual name="switch-18">
 			<origin xyz="0.48746849999999997 0 0.0790005"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-10.obj"/>
+				<mesh filename="textured_objs/new-10.obj"/>
 			</geometry>
 		</visual>
 		<visual name="switch-18">
 			<origin xyz="0.48746849999999997 0 0.0790005"/>
 			<geometry>
-				<mesh filename="faucet_objs/original-7.obj"/>
+				<mesh filename="textured_objs/original-7.obj"/>
 			</geometry>
 		</visual>
 		<collision>
 			<origin xyz="0.48746849999999997 0 0.0790005"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-10.obj"/>
+				<mesh filename="textured_objs/new-10.obj"/>
 			</geometry>
 		</collision>
 		<collision>
 			<origin xyz="0.48746849999999997 0 0.0790005"/>
 			<geometry>
-				<mesh filename="faucet_objs/original-7.obj"/>
+				<mesh filename="textured_objs/original-7.obj"/>
 			</geometry>
 		</collision>
 	</link>
@@ -40,25 +40,25 @@
 		<visual name="switch-19">
 			<origin xyz="-0.4956825 0 0.07900049999999996"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-6.obj"/>
+				<mesh filename="textured_objs/new-6.obj"/>
 			</geometry>
 		</visual>
 		<visual name="switch-19">
 			<origin xyz="-0.4956825 0 0.07900049999999996"/>
 			<geometry>
-				<mesh filename="faucet_objs/original-5.obj"/>
+				<mesh filename="textured_objs/original-5.obj"/>
 			</geometry>
 		</visual>
 		<collision>
 			<origin xyz="-0.4956825 0 0.07900049999999996"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-6.obj"/>
+				<mesh filename="textured_objs/new-6.obj"/>
 			</geometry>
 		</collision>
 		<collision>
 			<origin xyz="-0.4956825 0 0.07900049999999996"/>
 			<geometry>
-				<mesh filename="faucet_objs/original-5.obj"/>
+				<mesh filename="textured_objs/original-5.obj"/>
 			</geometry>
 		</collision>
 	</link>
@@ -74,25 +74,25 @@
 		<visual name="tube-24">
 			<origin xyz="-0.004107500000000028 0 0.0790015"/>
 			<geometry>
-				<mesh filename="faucet_objs/original-3.obj"/>
+				<mesh filename="textured_objs/original-3.obj"/>
 			</geometry>
 		</visual>
 			<visual name="head-25">
 				<origin xyz="-0.004107500000000028 0 0.0790015"/>
 				<geometry>
-					<mesh filename="faucet_objs/new-0.obj"/>
+					<mesh filename="textured_objs/new-0.obj"/>
 				</geometry>
 			</visual>
 		<collision>
 			<origin xyz="-0.004107500000000028 0 0.0790015"/>
 			<geometry>
-				<mesh filename="faucet_objs/original-3.obj"/>
+				<mesh filename="textured_objs/original-3.obj"/>
 			</geometry>
 		</collision>
 		<collision>
 			<origin xyz="-0.004107500000000028 0 0.0790015"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-0.obj"/>
+				<mesh filename="textured_objs/new-0.obj"/>
 			</geometry>
 		</collision>
 	</link>
@@ -107,13 +107,13 @@
 		<visual name="mouth-26">
 			<origin xyz="-0.004107500000000028 0 0.0790015"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-1.obj"/>
+				<mesh filename="textured_objs/new-1.obj"/>
 			</geometry>
 		</visual>
 		<collision>
 			<origin xyz="-0.004107500000000028 0 0.0790015"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-1.obj"/>
+				<mesh filename="textured_objs/new-1.obj"/>
 			</geometry>
 		</collision>
 	</link>
@@ -135,13 +135,13 @@
 		<visual name="vertical_support-30">
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-11.obj"/>
+				<mesh filename="textured_objs/new-11.obj"/>
 			</geometry>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-11.obj"/>
+				<mesh filename="textured_objs/new-11.obj"/>
 			</geometry>
 		</collision>
 	</link>
@@ -156,13 +156,13 @@
 		<visual name="vertical_support-32">
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-7.obj"/>
+				<mesh filename="textured_objs/new-7.obj"/>
 			</geometry>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-7.obj"/>
+				<mesh filename="textured_objs/new-7.obj"/>
 			</geometry>
 		</collision>
 	</link>
@@ -177,13 +177,13 @@
 		<visual name="vertical_support-28">
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-14.obj"/>
+				<mesh filename="textured_objs/new-14.obj"/>
 			</geometry>
 		</visual>
 		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-14.obj"/>
+				<mesh filename="textured_objs/new-14.obj"/>
 			</geometry>
 		</collision> -->
 	</link>
@@ -192,37 +192,37 @@
 		<visual name="surface_base-31">
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-8.obj"/>
+				<mesh filename="textured_objs/new-8.obj"/>
 			</geometry>
 		</visual>
 		<visual name="surface_base-29">
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-12.obj"/>
+				<mesh filename="textured_objs/new-12.obj"/>
 			</geometry>
 		</visual>
 		<visual name="surface_base-27">
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-4.obj"/>
+				<mesh filename="textured_objs/new-4.obj"/>
 			</geometry>
 		</visual>
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-8.obj"/>
+				<mesh filename="textured_objs/new-8.obj"/>
 			</geometry>
 		</collision>
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-12.obj"/>
+				<mesh filename="textured_objs/new-12.obj"/>
 			</geometry>
 		</collision>
 		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="faucet_objs/new-4.obj"/>
+				<mesh filename="textured_objs/new-4.obj"/>
 			</geometry>
 		</collision> -->
 	</link>

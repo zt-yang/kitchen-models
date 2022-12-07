@@ -3,25 +3,25 @@
 	<link name="base"/>
 	<link name="link_0">
 		<visual name="body-1">
-			<origin xyz="-0.0 0.1533962566795296 0.7771303494914226"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-3.obj"/>
 			</geometry>
 		</visual>
 		<visual name="body-1">
-			<origin xyz="-0.0 0.1533962566795296 0.7771303494914226"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-4.obj"/>
 			</geometry>
 		</visual>
 		<collision>
-			<origin xyz="-0.0 0.1533962566795296 0.7771303494914226"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-3.obj"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="-0.0 0.1533962566795296 0.7771303494914226"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-4.obj"/>
 			</geometry>
@@ -36,20 +36,20 @@
 	</joint>
 	<link name="link_1">
 		<visual name="lid-2">
-			<origin xyz="-0.0 0.1533962566795296 0.7771303494914226"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-2.obj"/>
 			</geometry>
 		</visual>
 		<collision>
-			<origin xyz="-0.0 0.1533962566795296 0.7771303494914226"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-2.obj"/>
 			</geometry>
 		</collision>
 	</link>
 	<joint name="joint_1" type="revolute">
-		<origin xyz="0.0 -0.1533962566795296 -0.7771303494914226"/>
+		<origin xyz="0 0 0"/>
 		<axis xyz="-1.0 -0.0 -0.0"/>
 		<child link="link_1"/>
 		<parent link="link_2"/>

@@ -3,97 +3,97 @@
 	<link name="base"/>
 	<link name="link_0">
 		<visual name="body-1">
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-31.obj"/>
 			</geometry>
 		</visual>
 		<visual name="body-1">
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-20.obj"/>
 			</geometry>
 		</visual>
 		<visual name="body-1">
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-28.obj"/>
 			</geometry>
 		</visual>
 		<visual name="body-1">
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-29.obj"/>
 			</geometry>
 		</visual>
 		<visual name="body-1">
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-21.obj"/>
 			</geometry>
 		</visual>
 		<visual name="body-1">
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-32.obj"/>
 			</geometry>
 		</visual>
 		<visual name="body-1">
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-22.obj"/>
 			</geometry>
 		</visual>
 		<visual name="body-1">
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-33.obj"/>
 			</geometry>
 		</visual>
 		<collision>
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-31.obj"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-20.obj"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-28.obj"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-29.obj"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-21.obj"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-32.obj"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-22.obj"/>
 			</geometry>
 		</collision>
 		<collision>
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-33.obj"/>
 			</geometry>
@@ -108,20 +108,20 @@
 	</joint>
 	<link name="link_1">
 		<visual name="lid-2">
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-25.obj"/>
 			</geometry>
 		</visual>
 		<collision>
-			<origin xyz="-0.0 0.06817607435527 0.8689201614068358"/>
+			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-25.obj"/>
 			</geometry>
 		</collision>
 	</link>
 	<joint name="joint_1" type="revolute">
-		<origin xyz="0.0 -0.06817607435527 -0.8689201614068358"/>
+		<origin xyz="0 0 0"/>
 		<axis xyz="-1.0 0.0 0.0"/>
 		<child link="link_1"/>
 		<parent link="link_2"/>

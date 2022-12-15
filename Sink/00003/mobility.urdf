@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<robot name="sink_003">
+	<material name="White">
+    <color rgba="0.85 0.85 0.85 1.0"/>
+  </material>
+  <material name="Grey">
+    <color rgba="0.4 0.4 0.4 1.0"/>
+  </material>
+
+	<link name="base"/>
+	<link name="link_1">
+		<visual name="body-6">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="sink.obj"/>
+			</geometry>
+			<material name="White"/>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="sink.obj"/>
+			</geometry>
+			<material name="White"/>
+		</collision>
+	</link>
+	<joint name="joint_1" type="fixed">
+		<origin rpy="-1.57 3.14 1.570796326794897" xyz="0 0 0"/>
+		<child link="link_1"/>
+		<parent link="base"/>
+	</joint>
+</robot>

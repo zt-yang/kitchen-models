@@ -52,11 +52,11 @@
 		</collision>
 	</link>
 	<joint name="joint_0" type="revolute">
-		<origin xyz="-0.6187850466966622 0 0.35921808895468765"/>
+		<origin xyz="-0.6187850466966622 0 0.35921808895468765" rpy="0 0.5235987755982988 0"/>
 		<axis xyz="0 -1 0"/>
 		<child link="link_0"/>
 		<parent link="link_20"/>
-		<limit lower="-0.5235987755982988" upper="1.3962634015954636"/>
+		<limit lower="0" upper="1.919862176"/>
 	</joint>
 	<link name="link_1">
 		<visual name="control_button-11">

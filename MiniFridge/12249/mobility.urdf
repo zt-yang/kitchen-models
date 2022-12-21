@@ -10,7 +10,7 @@
 			</geometry>
 		</visual>
 		<collision>
-			<origin xyz="-0.4767337469989671 -0.780485987663269 -0.45759143604256247"/>
+			<origin xyz="-0.4767337469989671 -0.780485987663269 -0.43759143604256247"/>
 			<geometry>
 				<mesh filename="textured_objs/original-2-new.obj"/>
 			</geometry>

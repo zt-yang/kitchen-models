@@ -18,10 +18,10 @@
 
 	<joint name="bottom_transform" type="fixed">
 		<parent link="basin"/>
-		<child link="basin_bottom"/>
+		<child link="sink_bottom"/>
 		<origin rpy="0 0 0" xyz="0 -0.24 0.21"/>
 	</joint>
-	<link name="basin_bottom">
+	<link name="sink_bottom">
 		<origin rpy="0 0 0" xyz="0 -0.4 0.21"/>
 		<visual name="water">
 			<geometry>

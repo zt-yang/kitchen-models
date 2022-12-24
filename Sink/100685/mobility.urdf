@@ -21,13 +21,13 @@
 <material name="Grey"/>
 		</visual>
 
-		<collision>
+		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-19.obj"/>
 			</geometry>
 <material name="Grey"/>
-		</collision>
+		</collision> -->
 
 		<collision>
 			<origin xyz="0 0 0"/>

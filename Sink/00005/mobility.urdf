@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot name="sink_005">
-	<material name="White">
+  <material name="White">
     <color rgba="0.85 0.85 0.85 1.0"/>
   </material>
   <material name="Grey">

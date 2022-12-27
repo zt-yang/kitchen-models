@@ -91,187 +91,187 @@
           <geometry>
             <mesh filename="vhacd/original-13_vhacd_3091802733_part-0.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-13_vhacd_3091802733_part-1.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-10_vhacd_3090819690_part-0.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-10_vhacd_3090819690_part-1.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-0.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-1.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-2.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-3.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-4.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-5.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-6.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-7.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-8.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-9.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-10.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-8_vhacd_2392599105_part-11.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-11_vhacd_3091147371_part-0.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-11_vhacd_3091147371_part-1.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-11_vhacd_3091147371_part-2.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-11_vhacd_3091147371_part-3.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-11_vhacd_3091147371_part-4.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-11_vhacd_3091147371_part-5.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-11_vhacd_3091147371_part-6.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-14_vhacd_3092130414_part-0.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-14_vhacd_3092130414_part-1.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-14_vhacd_3092130414_part-2.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-14_vhacd_3092130414_part-3.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-14_vhacd_3092130414_part-4.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-14_vhacd_3092130414_part-5.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-14_vhacd_3092130414_part-6.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
         <collision>
           <geometry>
             <mesh filename="vhacd/original-14_vhacd_3092130414_part-7.obj"/>
           </geometry>
-          <origin xyz="0.0 0.0 0.0" rpy="1.570796326794897 -0.0 -1.570796326794897"/>
+          <origin xyz="0.0 0.0 0.0"/>
         </collision>
 
 

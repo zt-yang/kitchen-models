@@ -1,6 +1,30 @@
 <?xml version="1.0" ?>
 <robot name="partnet_47c68395a5775e10d9deb3f829cc2475">
 	<link name="base"/>
+
+	<!-- <link name="oven_top">
+		<visual name="bottom">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-66.obj"/>
+			</geometry>
+			<material name="Transparent">
+				<color rgba="1 1 1 0"/>
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/original-66.obj"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_2" type="fixed">
+		<origin rpy="0 0 0" xyz="0 0 0"/>
+		<child link="oven_top"/>
+		<parent link="link_0"/>
+	</joint> -->
+
 	<link name="link_0">
 		<visual name="door-1">
 			<origin xyz="0.4281465047314254 0.5719901858661538 -0.4677611856582847"/>

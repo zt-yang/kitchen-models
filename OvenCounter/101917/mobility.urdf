@@ -703,12 +703,12 @@
 				<mesh filename="textured_objs/original-53.obj"/>
 			</geometry>
 		</visual>
-		<visual name="base_body-9">
+		<!-- <visual name="base_body-9">
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-1.obj"/>
 			</geometry>
-		</visual>
+		</visual> -->
 		<visual name="base_body-9">
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -1195,12 +1195,12 @@
 				<mesh filename="textured_objs/original-53.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-1.obj"/>
 			</geometry>
-		</collision>
+		</collision> -->
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>

@@ -468,7 +468,7 @@
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="textured_objs/original-39.obj"/>
+				<mesh filename="textured_objs/original-39-collision.obj"/>
 			</geometry>
 		</collision>
 		<collision>

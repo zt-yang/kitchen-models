@@ -322,12 +322,12 @@
 				<mesh filename="textured_objs/original-154.obj"/>
 			</geometry>
 		</visual>
-		<visual name="base_body-10">
+		<!-- <visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-126.obj"/>
 			</geometry>
-		</visual>
+		</visual> -->
 		<visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -454,12 +454,12 @@
 				<mesh filename="textured_objs/original-33.obj"/>
 			</geometry>
 		</visual>
-		<visual name="base_body-10">
+		<!-- <visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-130.obj"/>
 			</geometry>
-		</visual>
+		</visual> -->
 		<visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -520,12 +520,12 @@
 				<mesh filename="textured_objs/original-109.obj"/>
 			</geometry>
 		</visual>
-		<visual name="base_body-10">
+		<!-- <visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-13.obj"/>
 			</geometry>
-		</visual>
+		</visual> -->
 		<visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -628,12 +628,12 @@
 				<mesh filename="textured_objs/original-87.obj"/>
 			</geometry>
 		</visual>
-		<visual name="base_body-10">
+		<!-- <visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-55.obj"/>
 			</geometry>
-		</visual>
+		</visual> -->
 		<visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -688,12 +688,12 @@
 				<mesh filename="textured_objs/original-85.obj"/>
 			</geometry>
 		</visual>
-		<visual name="base_body-10">
+		<!-- <visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-56.obj"/>
 			</geometry>
-		</visual>
+		</visual> -->
 		<visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -862,12 +862,12 @@
 				<mesh filename="textured_objs/original-73.obj"/>
 			</geometry>
 		</visual>
-		<visual name="base_body-10">
+		<!-- <visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-12.obj"/>
 			</geometry>
-		</visual>
+		</visual> -->
 		<visual name="base_body-10">
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -1090,12 +1090,12 @@
 				<mesh filename="textured_objs/original-154.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-126.obj"/>
 			</geometry>
-		</collision>
+		</collision> -->
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -1222,12 +1222,12 @@
 				<mesh filename="textured_objs/original-33.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-130.obj"/>
 			</geometry>
-		</collision>
+		</collision> -->
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -1288,12 +1288,12 @@
 				<mesh filename="textured_objs/original-109.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-13.obj"/>
 			</geometry>
-		</collision>
+		</collision> -->
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -1396,12 +1396,12 @@
 				<mesh filename="textured_objs/original-87.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-55.obj"/>
 			</geometry>
-		</collision>
+		</collision> -->
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -1456,12 +1456,12 @@
 				<mesh filename="textured_objs/original-85.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-56.obj"/>
 			</geometry>
-		</collision>
+		</collision> -->
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
@@ -1630,12 +1630,12 @@
 				<mesh filename="textured_objs/original-73.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<!-- <collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-12.obj"/>
 			</geometry>
-		</collision>
+		</collision> -->
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>

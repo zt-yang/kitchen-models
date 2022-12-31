@@ -3,7 +3,7 @@
 	<material name="White">
     <color rgba="0.85 0.85 0.85 1.0"/>
   </material>
-	
+
 	<link name="base"/>
 	<link name="link_2">
 		<visual name="base_body-6">
@@ -26,37 +26,33 @@
 			<geometry>
 				<mesh filename="textured_objs/original-22-left.obj"/>
 			</geometry>
-<material name="White"/>
-		</collision>
+</collision>
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-22-right.obj"/>
 			</geometry>
-<material name="White"/>
-		</collision>
+</collision>
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-22-back.obj"/>
 			</geometry>
 <material name="White"/>
-		</collision>
+</collision>
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-22-bottom.obj"/>
 			</geometry>
-<material name="White"/>
-		</collision>
+</collision>
 
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-3.obj"/>
 			</geometry>
-<material name="White"/>
-		</collision>
+</collision>
 	</link>
 	<joint name="joint_2" type="fixed">
 		<origin rpy="1.570796326794897 0 -3.1415" xyz="0 0 0"/>
@@ -77,8 +73,7 @@
 			<geometry>
 				<mesh filename="textured_objs/original-22-bottom.obj"/>
 			</geometry>
-<material name="White"/>
-		</collision>
+</collision>
 	</link>
 	<joint name="joint_0" type="fixed">
 		<origin xyz="0 0 0"/>

@@ -610,11 +610,10 @@
 			</geometry>
 		</collision>
 	</link>
-	<joint name="joint_1" type="revolute">
+	<joint name="joint_1" type="fixed">
 		<origin xyz="-0.5259640216827393 0.6891115305125183 -0.5076302357203057"/>
 		<axis xyz="-1 0 0"/>
 		<child link="link_1"/>
 		<parent link="link_0"/>
-		<limit lower="0.0" upper="1.5707963267948966"/>
 	</joint>
 </robot>

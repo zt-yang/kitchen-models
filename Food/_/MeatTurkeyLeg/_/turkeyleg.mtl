@@ -12,8 +12,8 @@ newmtl meat
 	Kd 0.5880 0.5880 0.5880
 	Ks 0.0000 0.0000 0.0000
 	Ke 0.0000 0.0000 0.0000
-	map_Ka meat.jpg
-	map_Kd meat.jpg
+	map_Ka meat-min.jpg
+	map_Kd meat-min.jpg
 
 newmtl bone
 	Ns 10.0000

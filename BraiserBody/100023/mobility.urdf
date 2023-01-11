@@ -3,7 +3,7 @@
 	<link name="base"/>
 	<link name="braiser_bottom">
 		<visual name="bottom">
-			<origin xyz="0 0 0"/>
+			<origin xyz="0 -0.02 0"/>
 			<geometry>
 				<mesh filename="textured_objs/original-2.obj"/>
 			</geometry>

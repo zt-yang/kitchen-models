@@ -8,12 +8,12 @@
 				<mesh filename="textured_objs/new-6.obj"/>
 			</geometry>
 		</visual>
-		<visual name="glass-31">
+		<!-- <visual name="glass-31">
 			<origin xyz="0.6187850466966622 0 -0.35921808895468765"/>
 			<geometry>
 				<mesh filename="textured_objs/new-5.obj"/>
 			</geometry>
-		</visual>
+		</visual> -->
 		<visual name="hinge-32">
 			<origin xyz="0.6187850466966622 0 -0.35921808895468765"/>
 			<geometry>
@@ -32,12 +32,12 @@
 				<mesh filename="textured_objs/new-6.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<!-- <collision>
 			<origin xyz="0.6187850466966622 0 -0.35921808895468765"/>
 			<geometry>
 				<mesh filename="textured_objs/new-5.obj"/>
 			</geometry>
-		</collision>
+		</collision> -->
 		<collision>
 			<origin xyz="0.6187850466966622 0 -0.35921808895468765"/>
 			<geometry>

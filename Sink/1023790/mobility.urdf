@@ -224,6 +224,8 @@
 			</geometry>
 		</collision> -->
 	</link>
+
+
 	<!--joint name="joint_2" type="fixed">
 		<origin rpy="0 0 0" xyz="0 1.03 -0.14"/>
 		<child link="basin"/>
@@ -435,6 +437,7 @@
 			</geometry>
 		</collision>
 	</link-->
+
 	<joint name="joint_1" type="fixed">
 		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0"/>
 		<child link="basin"/>

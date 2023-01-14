@@ -93,7 +93,7 @@
 		<visual name="frame-8">
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="textured_objs/new-7.obj"/>
+				<mesh filename="textured_objs/new-7-fixed.obj"/>
 			</geometry>
 		</visual>
 		<visual name="foot-4">

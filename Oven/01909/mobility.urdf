@@ -269,7 +269,7 @@
 		<child link="link_2"/>
 		<parent link="link_5"/>
 		<limit lower="-6.283185307179586" upper="-0.6108652381980153"/>
-	</joint> -->
+	</joint -->
 	<link name="link_3">
 		<visual name="knob-5">
 			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626"/>

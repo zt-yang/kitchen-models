@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot name="Mug_159e56c18906830278d8f8c02c47cde0_M">
+  <link name="base"/>
+  <link name="link_0">
+  <visual>
+    <origin xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="Mug_159e56c18906830278d8f8c02c47cde0_M.obj" scale="1.0 1.0 1.0"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="collision.obj" scale="1.0 1.0 1.0"/>
+    </geometry>
+  </collision>
+  </link>
+  <joint name="joint_0" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <child link="link_0"/>
+    <parent link="base"/>
+  </joint>
+</robot>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<robot name="Cup_3a3b19614d545834cd321262c762dc9_S">
+  <link name="base"/>
+  <link name="link_0">
+  <visual>
+    <origin xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="Cup_3a3b19614d545834cd321262c762dc9_S.obj" scale="1.0 1.0 1.0"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.0"/>
+    <geometry>
+      <mesh filename="collision.obj" scale="1.0 1.0 1.0"/>
+    </geometry>
+  </collision>
+  </link>
+  <joint name="joint_0" type="fixed">
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <child link="link_0"/>
+    <parent link="base"/>
+  </joint>
+</robot>

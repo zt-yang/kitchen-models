@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<robot name="partnet_fed045d07c91bb2723901b5a0f119b35">
+	<link name="base"/>
+	<link name="link_0">
+		<visual name="container-3">
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/20405_Square_Salt_Shaker_V2.obj"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0"/>
+			<geometry>
+				<mesh filename="textured_objs/20405_Square_Salt_Shaker_V2.obj"/>
+			</geometry>
+		</collision>
+	</link>
+	<joint name="joint_0" type="fixed">
+		<origin rpy="0 0 -1.570796326794897" xyz="0 0 0"/>
+		<child link="link_0"/>
+		<parent link="base"/>
+	</joint>
+</robot>

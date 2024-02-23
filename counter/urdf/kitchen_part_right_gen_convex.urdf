@@ -400,7 +400,7 @@
     <child link="chewie_door_right_link_tmp"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1000.0" lower="0" upper="1.57" velocity="0.1"/>
+    <limit effort="1000.0" lower="0" upper="2.34" velocity="0.1"/>
   </joint>
   <link name="chewie_door_right_link_tmp"/>
   <joint name="chewie_door_right_joint_fixed_2" type="fixed">
@@ -464,7 +464,7 @@
     <child link="chewie_door_left_link_tmp"/>
     <origin rpy="0 0 0" xyz="0 0 0"/>
     <axis xyz="0 0 1"/>
-    <limit effort="1000.0" lower="-1.57" upper="0" velocity="0.1"/>
+    <limit effort="1000.0" lower="-2.34" upper="0" velocity="0.1"/>
   </joint>
   <link name="chewie_door_left_link_tmp"/>
   <joint name="chewie_door_left_joint_fixed_2" type="fixed">

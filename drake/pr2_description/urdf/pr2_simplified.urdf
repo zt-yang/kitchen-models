@@ -781,28 +781,28 @@
       </geometry>
       <material name="Grey2"/>
     </visual>
-    <visual group="non_gripper" name="torso_lift_visual_extra">
+    <visual name="torso_lift_visual_extra">
       <origin rpy="0 0 0" xyz="0 0 -0.6"/>
       <geometry>
         <mesh filename="../meshes/torso_v0/torso_lift_extra.obj"/>
       </geometry>
       <material name="Grey2"/>
     </visual>
-    <visual group="non_gripper" name="torso_lift_visual_extra">
+    <visual name="torso_lift_visual_extra">
       <origin rpy="3.1415 0 0" xyz="0 0 -0.7"/>
       <geometry>
         <mesh filename="../meshes/torso_v0/torso_lift_extra.obj"/>
       </geometry>
       <material name="Grey2"/>
     </visual>
-    <visual group="non_gripper" name="torso_lift_visual_extra">
+    <visual name="torso_lift_visual_extra">
       <origin rpy="0 0 0" xyz="0 0 -1.5"/>
       <geometry>
         <mesh filename="../meshes/torso_v0/torso_lift_extra.obj"/>
       </geometry>
       <material name="Grey2"/>
     </visual>
-    <visual group="non_gripper" name="torso_lift_visual_extra">
+    <visual name="torso_lift_visual_extra">
       <origin rpy="3.1415 0 0" xyz="0 0 -1.6"/>
       <geometry>
         <mesh filename="../meshes/torso_v0/torso_lift_extra.obj"/>
@@ -827,21 +827,18 @@
       <geometry>
         <mesh filename="../meshes/torso_v0/torso_lift_extra.obj"/>
       </geometry>
-      <material name="Grey2"/>
     </collision>
     <collision group="non_gripper" name="torso_lift_visual_extra">
       <origin rpy="0 0 0" xyz="0 0 -1.5"/>
       <geometry>
         <mesh filename="../meshes/torso_v0/torso_lift_extra.obj"/>
       </geometry>
-      <material name="Grey2"/>
     </collision>
     <collision group="non_gripper" name="torso_lift_visual_extra">
       <origin rpy="3.1415 0 0" xyz="0 0 -1.6"/>
       <geometry>
         <mesh filename="../meshes/torso_v0/torso_lift_extra.obj"/>
       </geometry>
-      <material name="Grey2"/>
     </collision>
   </link>
   <gazebo reference="torso_lift_link">

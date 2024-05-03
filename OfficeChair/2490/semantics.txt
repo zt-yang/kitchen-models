@@ -1,0 +1,12 @@
+link_0 hinge caster
+link_1 hinge wheel
+link_2 hinge caster
+link_3 hinge wheel
+link_4 hinge caster
+link_5 hinge wheel
+link_6 hinge caster
+link_7 hinge wheel
+link_8 hinge caster
+link_9 hinge wheel
+link_10 slider+ seat
+link_11 free chair_leg

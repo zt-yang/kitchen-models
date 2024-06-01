@@ -8,12 +8,12 @@
 				<mesh filename="turkeyleg.obj"/>
 			</geometry>
 		</collision>
-		<collision>
+		<visual>
 			<origin xyz="0 0 0"/>
 			<geometry>
 				<mesh filename="turkeyleg.obj"/>
 			</geometry>
-		</collision>
+		</visual>
 	</link>
 	<joint name="joint_1" type="fixed">
 		<origin rpy="1.570796326794897 0 -1.570796326794897" xyz="0 0 0"/>

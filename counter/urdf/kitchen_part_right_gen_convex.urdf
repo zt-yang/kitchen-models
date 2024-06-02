@@ -95,7 +95,7 @@
     <parent link="sektion"/>
     <child link="extractor_hood"/>
     <!--origin rpy="0 0 0" xyz="-0.14 0.415 0.37"/-->
-    <origin rpy="0 0 0" xyz="-0.24 0.415 0.47"/>
+    <origin rpy="0 0 0" xyz="-0.21 0.415 0.47"/>
   </joint>
   <link name="extractor_hood">
     <visual>

@@ -308,25 +308,59 @@
 
 
 
-	<link name="link_3">
+	<link name="knob_link_3">
 		<visual name="knob-5">
 			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626"/>
 			<geometry>
 				<mesh filename="textured_objs/original-8.obj"/>
 			</geometry>
 		</visual>
-		<visual name="knob-5">
+		<!-- <visual name="knob-5">
 			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626"/>
 			<geometry>
 				<mesh filename="textured_objs/original-7.obj"/>
 			</geometry>
-		</visual>
+		</visual> -->
 		<collision>
 			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626"/>
 			<geometry>
 				<mesh filename="textured_objs/original-8.obj"/>
 			</geometry>
 		</collision>
+		<!-- <collision>
+			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626"/>
+			<geometry>
+				<mesh filename="textured_objs/original-7.obj"/>
+			</geometry>
+		</collision> -->
+	</link>
+	<joint name="knob_joint_3" type="revolute">
+		<!-- <origin xyz="-0.15347888005765334 0.7720745754611937 -0.15151306153341626"/> -->
+		<axis xyz="0 0.19256852863983126 0.9812835277214688"/> -->
+		<child link="knob_link_3"/>
+		<parent link="link_3"/>
+		<limit lower="-0.0" upper="1.046666667"/>
+		<!-- <limit lower="-0.0" upper="5.672320068981571"/> -->
+	</joint>
+	<link name="link_3">
+		<!-- <visual name="knob-5">
+			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626"/>
+			<geometry>
+				<mesh filename="textured_objs/original-8.obj"/>
+			</geometry>
+		</visual> -->
+		<visual name="knob-5">
+			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626"/>
+			<geometry>
+				<mesh filename="textured_objs/original-7.obj"/>
+			</geometry>
+		</visual>
+		<!-- <collision>
+			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626"/>
+			<geometry>
+				<mesh filename="textured_objs/original-8.obj"/>
+			</geometry>
+		</collision> -->
 		<collision>
 			<origin xyz="0.25347888005765334 -0.7720745754611937 0.15151306153341626"/>
 			<geometry>
@@ -334,12 +368,11 @@
 			</geometry>
 		</collision>
 	</link>
-	<joint name="knob_joint_3" type="revolute">
+	<joint name="knob_button_3" type="fixed">
 		<origin xyz="-0.15347888005765334 0.7720745754611937 -0.15151306153341626"/>
-		<axis xyz="0 0.19256852863983126 0.9812835277214688"/>
+		<axis xyz="0 0.19256852863983123 0.9812835277214688"/>
 		<child link="link_3"/>
 		<parent link="link_5"/>
-		<limit lower="-0.0" upper="5.672320068981571"/>
 	</joint>
 	<!-- <joint name="joint_3" type="revolute">
 		<origin xyz="-0.25347888005765334 0.7720745754611937 -0.15151306153341626"/>
@@ -348,25 +381,61 @@
 		<parent link="link_5"/>
 		<limit lower="-0.0" upper="5.672320068981571"/>
 	</joint> -->
-	<link name="link_4">
+
+
+	<link name="knob_link_4">
 		<visual name="knob-6">
 			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305"/>
 			<geometry>
 				<mesh filename="textured_objs/original-6.obj"/>
 			</geometry>
 		</visual>
-		<visual name="knob-6">
+		<!-- <visual name="knob-6">
 			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305"/>
 			<geometry>
 				<mesh filename="textured_objs/original-49.obj"/>
 			</geometry>
-		</visual>
+		</visual> -->
 		<collision>
 			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305"/>
 			<geometry>
 				<mesh filename="textured_objs/original-6.obj"/>
 			</geometry>
 		</collision>
+		<!-- <collision>
+			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305"/>
+			<geometry>
+				<mesh filename="textured_objs/original-49.obj"/>
+			</geometry>
+		</collision> -->
+	</link>
+	<joint name="knob_joint_4" type="revolute">
+		<!-- <origin xyz="-0.3520335 0.7720735939143407 -0.15153806521756305"/> -->
+		<axis xyz="0 0.1925993712652328 0.9812774746157363"/>
+		<child link="knob_link_4"/>
+		<parent link="link_4"/>
+		<limit lower="-0.0" upper="1.046666667"/>
+		<!-- <limit lower="-6.283185307179586" upper="-0.6108652381980153"/> -->
+	</joint>
+	<link name="link_4">
+		<!-- <visual name="knob-6">
+			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305"/>
+			<geometry>
+				<mesh filename="textured_objs/original-6.obj"/>
+			</geometry>
+		</visual> -->
+		<visual name="knob-6">
+			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305"/>
+			<geometry>
+				<mesh filename="textured_objs/original-49.obj"/>
+			</geometry>
+		</visual>
+		<!-- <collision>
+			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305"/>
+			<geometry>
+				<mesh filename="textured_objs/original-6.obj"/>
+			</geometry>
+		</collision> -->
 		<collision>
 			<origin xyz="0.3520335 -0.7720735939143407 0.15153806521756305"/>
 			<geometry>
@@ -374,13 +443,19 @@
 			</geometry>
 		</collision>
 	</link>
-	<joint name="knob_joint_4" type="revolute">
+	<joint name="knob_button_4" type="fixed">
+		<origin xyz="-0.2520335 0.7720745754611937 -0.15151306153341626"/>
+		<axis xyz="0 0.19256852863983123 0.9812835277214688"/>
+		<child link="link_4"/>
+		<parent link="link_5"/>
+	</joint>
+	<!-- <joint name="knob_joint_4" type="revolute">
 		<origin xyz="-0.3520335 0.7720735939143407 -0.15153806521756305"/>
 		<axis xyz="0 0.1925993712652328 0.9812774746157363"/>
 		<child link="link_4"/>
 		<parent link="link_5"/>
 		<limit lower="-6.283185307179586" upper="-0.6108652381980153"/>
-	</joint>
+	</joint>  -->
 
 
 

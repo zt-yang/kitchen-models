@@ -757,17 +757,23 @@
   <joint name="hitman_countertop_transform" type="fixed">
     <parent link="hitman_tmp"/>
     <child link="hitman_countertop"/>
-    <origin rpy="0 0 0" xyz="-0.04 -0.75 -0.02"/>
+    <origin rpy="0 0 0" xyz="-0.04 -0.8 -0.02"/>
     <axis xyz="0 0 1"/>
   </joint>
   <link name="hitman_countertop">
     <!-- Use this for debugging purposes
-        <visual>
-          <geometry>
-            <box size="0.655 1.5 0.04"/>
-          </geometry>
-        </visual>
-        -->
+    -->
+    <visual>
+      <geometry>
+        <box size="0.655 1.58 0.04"/>
+      </geometry>
+      <material name="White"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.655 1.58 0.04"/>
+      </geometry>
+    </collision>
   </link>
   <joint name="hitman_transform_2" type="fixed">
     <parent link="hitman_tmp"/>

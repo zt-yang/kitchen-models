@@ -5,13 +5,13 @@
 		<collision>
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="turkeyleg.obj"/>
+				<mesh filename="turkeyleg-reduced.obj"/>
 			</geometry>
 		</collision>
 		<visual>
 			<origin xyz="0 0 0"/>
 			<geometry>
-				<mesh filename="turkeyleg.obj"/>
+				<mesh filename="turkeyleg-reduced.obj"/>
 			</geometry>
 		</visual>
 	</link>

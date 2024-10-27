@@ -217,7 +217,10 @@
 		</collision>
 	</link>
 	<joint name="knob_button_1" type="fixed">
-		<origin xyz="0.31708094673931356 0.7720745754611937 -0.15151306153341626"/>
+	    <!-- moved the right most knob upward and rightward to make spae for Rummy
+	        here, +x moves right, +y moves upward, +z moves forward -->
+		<!-- <origin xyz="0.31708094673931356 0.7720745754611937 -0.15151306153341626"/> -->
+		<origin xyz="0.36708094673931356 0.8020745754611937 -0.16151306153341626"/>
 		<axis xyz="0 0.19256852863983123 0.9812835277214688"/>
 		<child link="link_1"/>
 		<parent link="link_5"/>
@@ -444,7 +447,10 @@
 		</collision>
 	</link>
 	<joint name="knob_button_4" type="fixed">
-		<origin xyz="-0.2520335 0.7720745754611937 -0.15151306153341626"/>
+	    <!-- moved the left most knob upward and leftward to make spae for Rummy
+	        here, +x moves right, +y moves upward, +z moves forward -->
+		<!-- <origin xyz="-0.2520335 0.7720745754611937 -0.15151306153341626"/> -->
+		<origin xyz="-0.3020335 0.8020745754611937 -0.16151306153341626"/>
 		<axis xyz="0 0.19256852863983123 0.9812835277214688"/>
 		<child link="link_4"/>
 		<parent link="link_5"/>

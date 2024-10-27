@@ -1319,7 +1319,7 @@
       </geometry>
     </collision>
   </link>
-  <link name="indigo_door_right_nob_link">
+  <link name="indigo_door_right_handle">
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <mass value="1.0"/>
@@ -1362,7 +1362,7 @@
       </geometry>
     </collision>
   </link>
-  <link name="indigo_door_left_nob_link">
+  <link name="indigo_door_left_handle">
     <inertial>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <mass value="1.0"/>
@@ -1411,7 +1411,7 @@
   </joint>
   <joint name="indigo_door_right_nob_transform" type="fixed">
     <parent link="indigo_door_right_link"/>
-    <child link="indigo_door_right_nob_link"/>
+    <child link="indigo_door_right_handle"/>
     <origin rpy="0 0 0" xyz="0.0515 -0.13 0.1"/>
     <axis xyz="0 0 1"/>
   </joint>
@@ -1443,7 +1443,7 @@
   </joint>
   <joint name="indigo_door_left_nob_transform" type="fixed">
     <parent link="indigo_door_left_link"/>
-    <child link="indigo_door_left_nob_link"/>
+    <child link="indigo_door_left_handle"/>
     <origin rpy="0 0 0" xyz="0.0515 0.13 0.1"/>
     <axis xyz="0 0 1"/>
   </joint>
